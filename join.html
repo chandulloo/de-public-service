@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      label {
+        display: inline-block;
+      }
+    </style>
+    <title>Join</title>
+  </head>
+  <body>
+    <header class="joinup-header">
+      <img id="join-logo" src="images/join_logo.svg" />
+      <p class="joinup-header__title">Welcome</p>
+      <h1 class="joinup-header__text">
+        Join ‘DE’ Website for Public Service Advertisement
+      </h1>
+    </header>
+    <form id="joinup-form">
+      <input type="text" placeholder="Name" />
+      <input type="email" placeholder="Email" />
+      <input type="password" placeholder="Password" />
+      <div id="join_checkbox">
+        <input
+          id="join-agree_checkbox"
+          type="checkbox"
+          value="Agree checkbox"
+        />
+        <label for="join-agree_checkbox">개인정보수집약관에 동의합니다.</label>
+      </div>
+      <input type="submit" value="Create Account" />
+    </form>
+  </body>
+</html>
